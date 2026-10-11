@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Slide Puzzle</string>
+    <string name="camera">📷 Camera</string>
+    <string name="gallery">🖼 Gallery</string>
+
+    <string name="shuffle">🔀</string>
+    <string name="undo">↩</string>
+    <string name="hint">💡</string>
+    <string name="numbers">🔢</string>
+    <string name="sound_on">🔊</string>
+    <string name="sound_off">🔇</string>
+    <string name="size_button_default">5 × 5</string>
+    <string name="daily_button">📅</string>
+    <string name="daily_button_done">📅✓</string>
+    <string name="autosolve_button">🤖</string>
+    <string name="share_button">📤</string>
+    <string name="stats_button">📊</string>
+
+    <string name="desc_shuffle">Shuffle</string>
+    <string name="desc_size">Board size</string>
+    <string name="desc_numbers">Toggle tile numbers</string>
+    <string name="desc_sound">Toggle sound effects</string>
+    <string name="desc_undo">Undo last move</string>
+    <string name="desc_hint">Show a hint move</string>
+    <string name="desc_daily">Daily challenge</string>
+    <string name="desc_autosolve">Watch auto-solve</string>
+    <string name="desc_share">Share result</string>
+    <string name="desc_stats">Statistics</string>
+    <string name="puzzle_desc">Sliding puzzle board</string>
+
+    <string name="moves_initial">Moves: 0</string>
+    <string name="moves_format">Moves: %1$d</string>
+    <string name="timer_initial">00:00</string>
+    <string name="size_button">%1$d × %2$d</string>
+    <string name="tap_to_start">Take a photo or pick one — then slide the tiles!</string>
+    <string name="best_format">Best: %1$d moves · %2$s</string>
+    <string name="new_record">🎉 New record!</string>
+    <string name="solved_format">Solved in %1$d moves · %2$s</string>
+    <string name="solved_assisted_format">Solved (auto) in %1$d moves · %2$s — no record</string>
+    <string name="load_failed">Couldn\'t load that image</string>
+
+    <string name="hint_unavailable">Hints work up to 5 × 5 boards</string>
+    <string name="hint_failed">Too scrambled for a hint — try undo!</string>
+    <string name="a11y_solved">Puzzle solved!</string>
+
+    <string name="daily_challenge">Daily Challenge</string>
+    <string name="daily_available_format">Today\'s challenge: %1$d × %2$d. Everyone gets the same scramble!</string>
+    <string name="daily_started_format">📅 Daily %1$d × %2$d — good luck!</string>
+    <string name="daily_complete_prefix">Daily complete! </string>
+    <string name="daily_done_toast">Today\'s challenge is done — come back tomorrow! 🎉</string>
+    <string name="daily_streak_format">\n\n🔥 Streak: %1$d day(s)</string>
+
+    <string name="solve_confirm_title">Watch auto-solve</string>
+    <string name="solve_confirm_msg">Watch the optimal solution for this %1$d × %1$d board? The result won\'t count for records or the daily challenge.</string>
+    <string name="solve_play">Play</string>
+
+    <string name="share_title">Share via</string>
+    <string name="share_solve_format">I solved a %1$d×%1$d Slide Puzzle in %2$d moves in %3$s! 🧩 Can you beat that?</string>
+    <string name="share_best_format">My Slide Puzzle best for %1$d×%1$d: %2$d moves in %3$s 🧩 — think you can beat it?</string>
+    <string name="share_invite">I\'m playing Slide Puzzle 🧩 — think you can beat me?</string>
+
+    <string name="stats_title">Statistics</string>
+    <string name="stats_empty">No games yet — go shuffle something!</string>
+    <string name="stats_header_size">Size</string>
+    <string name="stats_header_best">Best</string>
+    <string name="stats_header_record">W / Plays</string>
+    <string name="stats_best_format">%1$d moves · %2$s</string>
+    <string name="stats_total">Total</string>
+
+    <string name="achievements_title">Achievements</string>
+    <string name="streak_format">🔥 %1$d-day daily streak</string>
+    <string name="ach_first_win">First Finish — solve any puzzle</string>
+    <string name="ach_win_3">Warm-Up — solve a 3 × 3</string>
+    <string name="ach_win_4">On a Roll — solve a 4 × 4</string>
+    <string name="ach_win_5">High Five — solve a 5 × 5</string>
+    <string name="ach_speed_4">Speed Demon — solve a 4 × 4 in under a minute</string>
+    <string name="ach_purist">Purist — win without using undo</string>
+    <string name="ach_big_10">Big League — start a 10 × 10 or larger</string>
+    <string name="ach_giant_20">Monumental — solve a 20 × 20</string>
+    <string name="ach_streak_3">Habit Forming — 3-day daily streak</string>
+    <string name="ach_streak_7">Fully Committed — 7-day daily streak</string>
+
+    <string name="tips_title">How to play</string>
+    <string name="tips_message">Tap any tile in the empty row/column to slide it.\nSwipe a tile toward the gap — or drag it and it follows your finger.\n\nTwo fingers: pinch to zoom, pan to explore (great on big boards).\nLong-press the board to peek at the full picture.\nDouble-tap to reset the zoom.\n\nKeyboard: arrows or WASD move tiles.\n📅 is the Daily Challenge — the same scramble for everyone!</string>
+
+    <string name="shortcut_daily">Daily 📅</string>
+    <string name="shortcut_daily_long">Play today\'s Daily Challenge</string>
+    <string name="shortcut_quick">Quick 3×3</string>
+    <string name="shortcut_quick_long">Jump into a 3 × 3</string>
+
+    <string name="export_button">⬆ Export</string>
+    <string name="import_button">⬇ Import</string>
+    <string name="backup_default_name">slide_puzzle_data.json</string>
+    <string name="backup_exported">Data exported 📁</string>
+    <string name="backup_imported">Data imported — records restored</string>
+    <string name="backup_failed">Backup failed</string>
+
+    <string name="a11y_tile_format">Tile %1$d</string>
+    <string name="a11y_correct_suffix"> — in place</string>
+    <string name="a11y_empty">Empty cell</string>
+    <string name="a11y_cant_move">That tile can\'t move into the empty space</string>
+
+    <string name="size_dialog_title">Board size</string>
+    <string name="size_dialog_hint">3 × 3 is a warm-up… 20 × 20 is 399 tiles of pain. Pinch to zoom, long-press to peek!</string>
+</resources>

@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.SlidePuzzle" parent="Theme.Material3.Dark.NoActionBar" />
+</resources>

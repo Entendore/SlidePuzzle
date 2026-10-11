@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="daily"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_daily"
+        android:shortcutLongLabel="@string/shortcut_daily_long">
+        <intent
+            android:action="com.example.slidepuzzle.action.DAILY"
+            android:targetPackage="com.example.slidepuzzle"
+            android:targetClass="com.example.slidepuzzle.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="quick3"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_quick"
+        android:shortcutLongLabel="@string/shortcut_quick_long">
+        <intent
+            android:action="com.example.slidepuzzle.action.QUICK3"
+            android:targetPackage="com.example.slidepuzzle"
+            android:targetClass="com.example.slidepuzzle.MainActivity" />
+    </shortcut>
+</shortcuts>
